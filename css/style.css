@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+ body {
+    height: 100vh;
+    box-sizing: border-box;
+ }
+main {
+  
+    background-color: aqua;
+}
+header {
+    border: 1px solid black;   
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.logo {
+   
+    padding: 5px;
+}
+
+
+.menu {
+    padding: 20px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.home {
+    padding: 0px 10px 0px 0px;
+}
+
+.our {
+    padding: 0px 10px 0px 0px;
+}
+
+.port {
+    padding: 0px 10px 0px 0px;
+}
+
+.message {
+    padding: 0px 10px 0px 0px;
+}
+
+table tr a:hover {
+    color: #32428c;
+    cursor: pointer;
+}
+.hero {
+    border: 2px solid black;
+    background-image: url(../asssets/ghgfh.png);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 595px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+.muncul {
+    color: #4458b2;
+}
+
+.dr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+}
+.logo-hero {
+    cursor: pointer;
+}
+.coba {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+    color: azure;
+    
+}
+
+.select {
+    background-image: url(../asssets/BGRND\ PLAYER.png);
+    width: 100%;
+    border: 3px solid black;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+.text-player {
+    display: flex;
+    justify-content: center;
+}
+
+.sama {
+    padding: 30px 0px 0px 0px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Sedgwick Ave Display', cursive;
+   
+}
+.bapak {
+    padding: 40px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ibu {
+    width: 100%;
+    justify-content: center;
+    gap: 80px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.parent-bunder1 {
+  justify-content: center;
+    
+}
+
+.text-ilham  {
+   color: white;
+    margin: 10px 20px 0px 20px;
+}
+
+.text-crystal  {
+    color: white;
+ }
+
+
+.text-keterangan {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 10px 0px 0px 0px;
+    
+}
+
+.text-nick {
+    margin: 10px 0px 0px 27px;
+}
+
+.bunder1 {
+    background-image: url(../asssets/muka\ ling.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.induk-messages {
+    background-image: url(../asssets/BGRND\ PLAYER.png);
+    width: 100%;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+}
+
+.parent-form {
+    margin: 2%;
+    padding: 40px 0px 0px 0px;
+
+}
+
+.border-form {
+    border: 3px solid rgb(255, 255, 255);
+    padding: 20px 20px 80px 40px;
+    border-radius: 4%;
+    color: white;
+    background-image: url(../asssets/316707.jpg);
+    background-position: left;
+}
+
+.hasil-form {
+    margin: 2%;
+    padding: 40px 0px 0px 0px;
+
+    
+    
+}
+
+.result {
+    background-image: url(../asssets/316707.jpg);
+    background-position: left;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(69, 63, 183);
+    padding: 20px 210px 100px 40px;
+    border-radius: 4%;
+    color: white;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+}
+.kaki {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding: 20px;
+    color: aliceblue;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width : 382px ) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        justify-content: center;
+    }
+
+    .revo {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width : 446px ) {
+
+    .logo-hero {
+        width: 300px;
+        height: 350px;
+    }
+    .coba {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width : 372px ) {
+
+   .menu {
+   
+    padding: 0px 0px px 0px;
+   }
+}
+
+@media screen and (max-width : 809px ) {
+
+    .logo-hero {
+     
+     padding: 70px 0px 0px 0px;
+    }
+ }
+
+ @media screen and (max-width : 950px ) {
+    .ibu {
+        justify-content: center;
+        align-items: center;
+    }
+    
+ }
