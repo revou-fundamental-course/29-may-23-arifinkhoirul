@@ -1,12 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bruno+Ace+SC&family=Josefin+Sans:ital@1&family=Kanit:wght@500&family=Lilita+One&family=Open+Sans&family=Paytone+One&family=Prompt:wght@300&family=Righteous&family=Sedgwick+Ave+Display&family=Sigmar&display=swap" rel="stylesheet">
+    <title>Latihan</title>
+    <link rel="shortcut icon" href="asssets/89 1.png" />
 </head>
 <body>
-    
+
+        <div class="navbar">
+            <div class="logo">
+                <img class="revo" src="asssets/89.png" width="40" height="50"/>
+            </div>
+            <div class="menu">
+               <table>
+                    <tr>
+                        <td class="home"><a class="link" href="#">Home</a></td>
+                        <td class="our"><a class="link" href="#player-ml">Player</a></td>
+                        <td class="port"><a class="link" href="our-profile.html">Our Profile</a></td>
+                        <td class="message"><a class="link" href="#message-us">Message Us</a></td>
+                    </tr>
+               </table>
+            </div>
+        </div>
+   
+    <main>
+        <div class="hero">
+            <div class="dr">
+                    <div class="cr">
+                        <img class="logo-hero" src="asssets/89 1.png" width="350" height="400"/>
+                    </div>
+                    <div class="coba">
+                        <h2>Hi <span class="muncul" id="nama"></span> ! Welcome to website</h2>
+                        <p>ini adalah website latihan pertama</p>
+                    </div>
+            </div>
+        </div>
+        <div class="select">
+            <div class="text-player">
+                <div class="sama">
+                    <h2 id="player-ml">PLAYER <br>
+                </div>
+            </div>
+                <div class="bapak">
+                    <div class="ibu">
+                        <div class="parent-bunder1">
+                            <div class="bunder1"></div>
+                                <p class="text-keterangan">ILHAM</p>
+                        </div>
+                        <div class="parent-bunder1">
+                            <div class="bunder1"></div>
+                            <p class="text-keterangan">ARIP</p>
+                        </div>
+                        <div class="parent-bunder1">
+                            <div class="bunder1"></div>
+                            <p class="text-keterangan">DONY</p>
+                        </div>
+                        <div class="parent-bunder1">
+                            <div class="bunder1"></div>
+                            <p class="text-keterangan">SHIDQI</p>
+                        </div>
+                        <div class="parent-bunder1">
+                            <div class="bunder1"></div>
+                            <p class="text-keterangan">DERY</p>
+                        </div>
+                    </div>
+                    </div>
+        </div>
+        <div class="induk-messages">
+            <div class="parent-form">
+                <div class="border-form">
+                    <h2 id="message-us">Message Us</h2>
+                    <br>
+                <form action="" name="message-form" onsubmit="return validateForm()">
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td><input type="text" name="full-name"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td><input type="date" name="birth-date"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamain</td>
+                        <td>:</td>
+                        <td>
+                            <label for="male"></label><input type="radio" id="male" name="gender" value="Laki Laki">Laki Laki
+                            <label for="female"></label><input type="radio" id="female" name="gender" value="Wanita">Wanita
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pesan</td>
+                        <td>:</td>
+                        <td>
+                            <textarea name="messages" id="pesan" cols="" rows=""></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="submit"></td>
+                    </tr>
+                </table>
+                </form>
+                </div>
+            </div>
+            <div class="hasil-form">
+                <div class="result">
+                    <p>Nama :</p>
+                    <span id="sender-full-name"></span>
+                    <p>Tanggal Lahir:</p>
+                    <span id="sender-birth-date"></span>
+                    <p>Jenis Kelamin :</p>
+                    <span id="sender-gender"></span>
+                    <p>Pesan :</p>
+                    <span id="sender-messages"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="kaki">
+            <p>Created By Irul</p></div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
